@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Book List</title>
+  </head>
+  <body>
+    <div class="header">My Book List</div>
+    <div class="input-container">
+      <label for="book-name">Title:</label>
+      <input type="text" id="book-name" />
+      <label for="author">Author:</label>
+      <input type="text" id="author" />
+      <label for="page-num">Amount of Pages:</label>
+      <input type="number" id="page-num" />
+      <label for="check">Completed Reading:</label>
+      <select name="check" id="check">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+    </div>
+    <button class="add-to-list">Add to Library</button>
+    <!-- <div class="book-headers">
+      <div class="book-header-name">Title</div>
+      <div class="book-header-author">Author</div>
+      <div class="book-header-pages">Amount of Pages</div>
+      <div class="book-header-complete">Completed</div>
+    </div> -->
+    <div class="book-container">
+      <div class="list-of-books">
+        <div class="lib-name">Nineteen Eighty-Four</div>
+        <div class="lib-author">George Orwell</div>
+        <div class="lib-pages">328</div>
+        <button class="lib-complete-btn">Yes</button>
+        <button class="delete-btn">Delete</button>
+      </div>
+      <div class="list-of-books">
+        <div class="lib-name">The Martian</div>
+        <div class="lib-author">Andy Weir</div>
+        <div class="lib-pages">369</div>
+        <button class="lib-complete-btn">Yes</button>
+        <button class="delete-btn">Delete</button>
+      </div>
+      <div class="list-of-books">
+        <div class="lib-name">The Shadow of What Was Lost</div>
+        <div class="lib-author">James Islington</div>
+        <div class="lib-pages">725</div>
+        <button class="lib-complete-btn">No</button>
+        <button class="delete-btn">Delete</button>
+      </div>
+      <div class="new-book-divs"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

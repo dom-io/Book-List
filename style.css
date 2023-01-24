@@ -1,0 +1,181 @@
+* {
+  font-family: monospace;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: rgba(14, 13, 13, 0.712);
+}
+
+.header {
+  font-size: 7rem;
+  padding-left: 3rem;
+  color: ghostwhite;
+}
+
+.input-container label {
+  font-size: 4rem;
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+  color: ghostwhite;
+}
+
+#book-name,
+#author,
+#page-num,
+#check {
+  font-size: 4rem;
+  margin-left: 3rem;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+#check {
+  background-color: cornflowerblue;
+  color: ghostwhite;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.add-to-list {
+  font-size: 4rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  background-color: mediumseagreen;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: ghostwhite;
+  margin-bottom: 2rem;
+  border: 3px solid black;
+}
+
+/* .book-headers {
+  display: flex;
+  gap: 20px;
+  margin-top: 3rem;
+  font-size: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-weight: bold;
+}
+
+.book-header-author {
+  margin-left: 40rem;
+}
+
+.book-header-pages {
+  margin-left: 30rem;
+}
+
+.book-header-complete {
+  margin-left: 20rem;
+} */
+
+.book-container {
+  border: 5px solid black;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 20rem;
+}
+
+.list-of-books {
+  display: flex;
+  font-size: 2.7rem;
+  flex-direction: column;
+  gap: 0.3rem;
+  color: ghostwhite;
+}
+
+.lib-name {
+  margin-left: 1rem;
+}
+
+.lib-author {
+  margin-left: 1rem;
+}
+
+.lib-pages {
+  margin-left: 1rem;
+}
+
+.lib-complete-btn {
+  margin-left: 1rem;
+  font-size: 2.5rem;
+  width: 7rem;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  color: ghostwhite;
+  border: 3px solid black;
+}
+
+.delete-btn {
+  margin-left: 1rem;
+  font-size: 2.5rem;
+  width: 12rem;
+  margin-bottom: 2.5rem;
+  border-radius: 10px;
+  background-color: red;
+  color: ghostwhite;
+  border: 3px solid black;
+}
+
+.new-book-divs {
+  display: flex;
+  gap: 0.3rem;
+  flex-direction: column;
+  font-size: 2.7rem;
+  color: ghostwhite;
+}
+
+div[class^='name-div-'] {
+  margin-left: 1rem;
+}
+
+div[class^='author-div-'] {
+  margin-left: 1rem;
+}
+
+div[class^='page-div-'] {
+  margin-left: 1rem;
+}
+
+button[class^='complete-btn-'] {
+  margin-left: 1rem;
+  margin-left: 1rem;
+  font-size: 2.5rem;
+  width: 7rem;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  color: ghostwhite;
+  border: 3px solid black;
+}
+
+button[class^='complete-btn-']:hover {
+  opacity: 0.6;
+}
+
+button[class^='delete-btn-'] {
+  margin-left: 1rem;
+  margin-left: 1rem;
+  font-size: 2.5rem;
+  width: 12rem;
+  margin-bottom: 2.5rem;
+  border-radius: 10px;
+  background-color: red;
+  color: ghostwhite;
+  border: 3px solid black;
+}
+
+button[class^='delete-btn-']:hover {
+  opacity: 0.6;
+}
